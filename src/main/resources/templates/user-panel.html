@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+
+
+<head>
+<title>Perfil Usuario</title>
+</head>
+
+<body>
+
+<div layout:fragment="content">
+
+<h2>Mi Perfil</h2>
+
+<p>Nombre:</p>
+
+<p>Correo:</p>
+
+<a th:href="@{/prestamos}">
+
+Ver préstamos
+
+</a>
+
+</div>
+
+</body>
+</html>

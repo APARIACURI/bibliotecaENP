@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+
+
+<head>
+<title>Inicio</title>
+</head>
+
+<body>
+
+<div layout:fragment="content">
+
+<section>
+
+<h1>📚 Biblioteca Digital BENP</h1>
+
+<input type="text"
+placeholder="Buscar libro">
+
+<br><br>
+
+<a th:href="@{/login}">
+<button>Ingresar</button>
+</a>
+
+<a th:href="@{/register}">
+<button>Registrarse</button>
+</a>
+
+</section>
+
+</div>
+
+</body>
+</html>
